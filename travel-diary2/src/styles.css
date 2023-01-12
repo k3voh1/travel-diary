@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  background-color: #21222a;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+p,
+h5,
+h1 {
+  margin: 0;
+}
+
+.hero-cont {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 1px 5px rgba(255, 255, 252, 0.25);
+  margin-left: 5px;
+  margin-top: 8px;
+  color: #ffa500;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.hero-img-cont img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.hero-img-cont p {
+  display: inline-block;
+  align-self: center;
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.main-cont {
+  padding: 40px;
+}
+
+.card-cont {
+  margin: auto;
+  box-shadow: 0 1px 5px rgba(255, 255, 252, 0.3);
+  border-radius: 10px;
+  height: 255px;
+  width: 1050px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.card-img-cont {
+  height: 100%;
+  width: 185px;
+  margin-right: 22px;
+  margin-left: 45px;
+}
+
+.card-img-cont img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-info-cont {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.lct-desc-cont {
+  width: 550px;
+  line-height: 1.5;
+}
+
+.lct-url-cont {
+  margin-bottom: 10px;
+}
+.lct-url-cont span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffa500;
+}
+
+#url-tag {
+  margin-left: 10px;
+  color: grey;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.25s;
+}
+
+#url-tag:hover {
+  color: #ffa500;
+}
+
+.lct-name-cont {
+  margin-bottom: 20px;
+}
+.lct-name-cont h1 {
+  font-size: 33px;
+}
+
+.lct-date-cont {
+  margin-bottom: 12px;
+}
+
+.lct-desc-cont {
+  font-size: 17px;
+}
+
+.grid-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  margin-top: 5px;
+}
+
+.grid-cont-flex {
+  flex: 20%;
+  max-width: 14%;
+  padding: 0 10px;
+}
+
+.event-pic {
+  width: 100%;
+  margin-top: 15px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+#grid1 {
+  align-self: flex-end;
+}
+
+#grid2 {
+  align-self: flex-start;
+}
+
+.intro-cont {
+  width: 400px;
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.intro-cont p {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-top: 10px;
+}
